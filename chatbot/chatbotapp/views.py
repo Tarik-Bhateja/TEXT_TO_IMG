@@ -4,11 +4,9 @@ import json
 from django.shortcuts import render
  
 
-openai.api_key = "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"
+openai.api_key = ""
 
 def chatbot(request):
-    openai.api_key = "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"
-    model_engine = "davinci"
     if request.method == 'POST':
         prompt = request.POST['query']
         prompt=str(prompt)
