@@ -8,8 +8,6 @@ User inputs required are:
 * Text
 
 
-## Weblink
-https://app.bhateja.tech/
 
 ## Screenshots
 
